@@ -1,0 +1,34 @@
+sp_describe_first_result_set @tsql = N'
+
+Select dc.FirstName, dc.LastName, dp.EnglishProductName, fis.ProductKey, fis.OrderDateKey, fis.DueDateKey, fis.ShipDateKey
+From dbo.FactInternetSales fis
+Join dbo.DimCustomer dc
+On fis.CustomerKey = dc.CustomerKey
+Join dbo.DimProduct dp
+On fis.ProductKey = dp.ProductKey'
+
+CREATE TABLE #tempTable (
+	FirstName nvarchar(50),
+	LastName nvarchar(50),
+	EnglishProductName nvarchar(50),
+	ProductKey int,
+	OrderDateKey int,
+	DueDateKey int,
+	ShipDateKey int
+)
+
+Select * From #tempTable;
+
+SELECT *
+INTO #tempTable
+FROM (
+
+Declare @strSQL varchar(max)
+
+set @strSQL = N'
+	Select dc.FirstName, dc.LastName, dp.EnglishProductName, fis.ProductKey, fis.OrderDateKey, fis.DueDateKey, fis.ShipDateKey
+	From dbo.FactInternetSales fis
+	Join dbo.DimCustomer dc
+	On fis.CustomerKey = dc.CustomerKey
+	Join dbo.DimProduct dp
+	On fis.ProductKey = dp.ProductKey'

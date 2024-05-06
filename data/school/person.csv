@@ -1,0 +1,35 @@
+PersonID,LastName,FirstName,HireDate,EnrollmentDate,Discriminator
+1,Abercrombie,Kim,1995-03-11 00:00:00,,Instructor
+2,Barzdukas,Gytis,,2005-09-01 00:00:00,Student
+3,Justice,Peggy,,2001-09-01 00:00:00,Student
+4,Fakhouri,Fadi,2002-08-06 00:00:00,,Instructor
+5,Harui,Roger,1998-07-01 00:00:00,,Instructor
+6,Li,Yan,,2002-09-01 00:00:00,Student
+7,Norman,Laura,,2003-09-01 00:00:00,Student
+8,Olivotto,Nino,,2005-09-01 00:00:00,Student
+9,Tang,Wayne,,2005-09-01 00:00:00,Student
+10,Alonso,Meredith,,2002-09-01 00:00:00,Student
+11,Lopez,Sophia,,2004-09-01 00:00:00,Student
+12,Browning,Meredith,,2000-09-01 00:00:00,Student
+13,Anand,Arturo,,2003-09-01 00:00:00,Student
+14,Walker,Alexandra,,2000-09-01 00:00:00,Student
+15,Powell,Carson,,2004-09-01 00:00:00,Student
+16,Jai,Damien,,2001-09-01 00:00:00,Student
+17,Carlson,Robyn,,2005-09-01 00:00:00,Student
+18,Zheng,Roger,2004-02-12 00:00:00,,Instructor
+19,Bryant,Carson,,2001-09-01 00:00:00,Student
+20,Suarez,Robyn,,2004-09-01 00:00:00,Student
+21,Holt,Roger,,2004-09-01 00:00:00,Student
+22,Alexander,Carson,,2005-09-01 00:00:00,Student
+23,Morgan,Isaiah,,2001-09-01 00:00:00,Student
+24,Martin,Randall,,2005-09-01 00:00:00,Student
+25,Kapoor,Candace,2001-01-15 00:00:00,,Instructor
+26,Rogers,Cody,,2002-09-01 00:00:00,Student
+27,Serrano,Stacy,1999-06-01 00:00:00,,Instructor
+28,White,Anthony,,2001-09-01 00:00:00,Student
+29,Griffin,Rachel,,2004-09-01 00:00:00,Student
+30,Shan,Alicia,,2003-09-01 00:00:00,Student
+31,Stewart,Jasmine,1997-10-12 00:00:00,,Instructor
+32,Xu,Kristen,2001-07-23 00:00:00,,Instructor
+33,Gao,Erica,,2003-01-30 00:00:00,Student
+34,Van Houten,Roger,2000-12-07 00:00:00,,Instructor
